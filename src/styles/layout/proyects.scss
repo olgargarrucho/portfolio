@@ -1,0 +1,10 @@
+@import "../core/variables.scss";
+
+.proyects {
+    &__title {
+        color: $primary-font-color;
+        font-family: $title-font;
+        font-size: 3.6rem;
+        padding-left: 50px;
+    }
+}
