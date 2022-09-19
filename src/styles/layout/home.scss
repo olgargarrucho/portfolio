@@ -1,0 +1,27 @@
+@import "../core/variables.scss";
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  gap: 30px;
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &-subtitle {
+      font-family: $title-font;
+      font-size: 3.6rem;
+    }
+    &-title {
+      font-family: $menu-font;
+      font-size: 4.5rem;
+    }
+  }
+  &__img{
+      border-radius: 50%;
+  }
+}
