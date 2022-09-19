@@ -1,0 +1,24 @@
+@import "../core/variables.scss";
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  &__menu {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &-item {
+      
+    }
+    &-link {
+      color: $primary-font-color;
+      font-size: 2rem;
+      font-family: $menu-font;
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
