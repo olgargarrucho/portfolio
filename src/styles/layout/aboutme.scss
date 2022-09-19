@@ -1,0 +1,25 @@
+@import "../core/variables.scss";
+
+.aboutme {
+  &__title {
+    color: $primary-font-color;
+    font-family: $title-font;
+    font-size: 3.6rem;
+    padding-left: 50px;
+  }
+  &__subtitle {
+    color: $neutral-color;
+    font-family: $title-font;
+    font-size: 2.4rem;
+    padding-left: 90px;
+    padding-top: 30px;
+  }
+  &__text {
+    color: $primary-font-color;
+    font-family: $text-font;
+    font-size: 2rem;
+    padding-left: 120px;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
